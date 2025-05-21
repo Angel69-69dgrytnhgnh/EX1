@@ -11,5 +11,5 @@ app.get("/temperatura", (req, res) => {
   res.json({ valor: "10 °C", timestamp: new Date().toISOString() });
 });
 app.listen(PORT, () => {
-  console.log("Servidor corriendo en puerto ${PORT}");
+  console.log(`Servidor corriendo en puerto ${PORT}`);
 });
